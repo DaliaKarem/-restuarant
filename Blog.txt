@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header{
+            border: thin solid black;
+           width: 100%;
+           height: 100%;
+   text-align: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+            border-radius: 20px;
+        }
+        #nav{
+          border: thin solid white;
+          border-radius: 10px;
+          margin: top 10px; 
+          margin-bottom: 10px;
+        }
+        #left{
+            height:2000px ;
+           width:19% ;
+           float: left;
+           border:thin solid white ;
+           border-radius: 10px;
+           margin-right: 1%;
+           background-color: grey;
+           font-size: 20px;
+        }
+        #right{
+           height:2000px ;
+           width:19% ;
+           float: right;
+           border:thin solid white ;
+           border-radius: 10px;
+           margin-right: 1%;
+           background-color: grey;
+        }
+        #footer{
+            clear: both;
+            height: 50px;
+            width: 100%;
+            border: thin solid black;
+            border-radius: 10px;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header"><img src="cover.jpg"></div>
+    <div id="left">
+     <a href="restaurant.html">
+        Home   </a><br>
+        <a href="Gallary.html">Gallary</a><br>
+        <a href="Menu.html">Menu</a><br>
+        <a href="Blog.html">Blog</a><br>
+        <a href="learn more.html">learn More</a><br>
+        <a href="About.html">About Restaurant</a><br>
+    </div>
+    <div id="right"></div>
+    <div id="nav">
+        <p>
+          <b>Restaurant blogs might have some of the answers you need Let’s face it </b><br>  
+ Running a restaurant is tough.<br>
+As an owner, you have to handle every aspect of your business, from cooking to managing, from accounting to marketing.<br>
+
+Chances are – you feel like you’re not equipped to deal with everything that’s coming your way.<br>
+
+Every problem seems important. Every problem seems urgent.<br>
+
+But you have no idea how to solve them.<br>
+
+It doesn’t have to be that way.<br>
+
+<b>Think about it:</b><br>
+
+Managing a restaurant is not new. Hordes of people before you have tried to set up their own restaurants (even multiple of them) and have either succeeded or failed. Many on the sidelines have also took up the task of analyzing what they did well, and what mistakes they made.
+
+<br>That means — most of the problems you face today have a solution.<br> 
+
+And these solutions have written about over and over again in different restaurant management blogs.<br>
+<b style="font-size: 30px;">1. Restaurant Business Online</b>
+<img src="res blog1.PNG">
+<b style="font-size: 30px;">2.Restaurant Engine</b>
+<img src="res blog2.PNG">
+<b style="font-size: 30px;">3.Modern Restaurant Management</b>
+<img src="res blog3.PNG">
+        </p>
+    </div>
+    <div id="footer">
+        <b style="font-size: 100;"><i> all these pages created by<big> Dalia Karem</big></i></b>
+    </div>
+</body>
+</html>

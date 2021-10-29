@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+        padding-bottom: 50;
+        font-style: italic;
+       color: black;
+       font-size: 20px;
+        }
+        .content{
+   
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+   }
+    
+        
+    </style>
+</head>
+<body>
+    <h3 style="font-style: italic ;color: rgb(40, 12, 43);font-size: 30px;background-position: center"> Fill your information to book A Visit </h3>
+    <div class="content">
+        <img src="book a visit1.jpg" style="width:100%;height:100%;position:absolute;top:0;left:0;z-index:-5000;">
+    
+       </div>
+    <form >
+        
+       
+       <b> Enter username <input type="text"><br></b>
+       <b>Number of persons<input type="number"><br></b> 
+       <b> Time <input type="time"><br></b>
+       <b>Date <input type="date"><br></b> 
+        <b>Payment way <input type="text"><br></b> 
+         <input type="submit" ><br>
+         <button type="submit" formaction="restaurant.html">Return</button>
+           
+    </form>
+    
+</body>
+</html>
